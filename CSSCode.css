@@ -3,13 +3,22 @@ h1 {
     height:200px;
     background-color: beige;
     text-align:center;
-    
+
 }
 body {
     background-color: tan;
 }
 .abouts {
-    font-size:x-large;
-    font-family: impact;
+    font-size: xx-large;
+    border-radius: 50px 40px 30px 20px;
+    box-shadow: 5px 10px 3px;
+    border-color:black;
+    border-style:double;
+    border-width:medium;
+    
 
+}
+.abouts:hover {
+    color:dark grey;
+    
 }
