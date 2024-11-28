@@ -3,16 +3,18 @@ h1 {
     height:400px;
     background-color: rgb(145, 2, 2);
     text-align:center;
-
 }
-.titlez {
+
+.MyTitle {
     font-family: cursive;
     font-size: xx-large;
     color: white;
 }
+
 body {
     background-color: maroon;
 }
+
 .abouts {
     font-size: xx-large;
     border-radius: 20px 20px 20px 20px;
@@ -22,20 +24,26 @@ body {
     border-width:medium;
     color: beige;
 }
+
 summary:hover {
     color: grey;
+    
 }
+
 a:hover {
     color:grey;
 }
+
 a:link {
     color:white;
     text-decoration: none;
 }
+
 a:visited {
     color: lightgrey;
     text-decoration: underline;
 }
+
 a:active {
     color: white;
     text-decoration: underline;
