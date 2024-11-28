@@ -21,12 +21,12 @@ body {
     border-width:medium;
     color: beige;
 }
-.abouts:hover {
-    color: grey;
+summary:hover {
+    font-co: grey;
 
 }
 a:link {
-    color:white;
+    text:white;
     text-decoration: underline;
 }
 a:visited {
