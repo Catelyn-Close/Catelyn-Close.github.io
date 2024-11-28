@@ -23,13 +23,13 @@ body {
     color: beige;
 }
 summary:hover {
-    font-co: grey;
+    color: grey;
 }
 a:hover {
     color:grey;
 }
 a:link {
-    text:white;
+    color:white;
     text-decoration: underline;
 }
 a:visited {
