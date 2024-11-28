@@ -5,8 +5,11 @@ h1 {
     text-align:center;
 
 }
+.title {
+    font-family:fantasy;
+}
 body {
-    background-color: tan;
+    background-color: maroon;
 }
 .abouts {
     font-size: xx-large;
