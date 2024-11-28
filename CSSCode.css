@@ -33,3 +33,7 @@ a:visited {
     color: lightgrey;
     text-decoration: underline;
 }
+a:active {
+    color: white;
+    text-decoration: underline;
+}
