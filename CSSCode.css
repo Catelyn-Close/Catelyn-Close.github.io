@@ -23,7 +23,9 @@ body {
 }
 summary:hover {
     font-co: grey;
-
+}
+a:hover {
+    color:grey;
 }
 a:link {
     text:white;
