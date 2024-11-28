@@ -3,9 +3,6 @@ h1 {
     height:400px;
     background-color: rgb(145, 2, 2);
     text-align:center;
-}
-
-.MyTitle {
     font-family: cursive;
     font-size: xx-large;
     color: white;
@@ -27,7 +24,7 @@ body {
 
 summary:hover {
     color: grey;
-    
+
 }
 
 a:hover {
