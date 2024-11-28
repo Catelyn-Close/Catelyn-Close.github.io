@@ -7,25 +7,23 @@ h1 {
     font-size: xx-large;
     color: white;
 }
-
-body {
-    background-color: maroon;
-}
-a:hover {
-    color:grey;
-}
 a:link {
     color:white;
     text-decoration: none;
 }
-a:visited {
+a:visited, a:active {
     color: lightgrey;
     text-decoration: underline;
 }
-a:active {
-    color: white;
-    text-decoration: underline;
+a:hover {
+    color:grey;
 }
+body {
+    background-color: maroon;
+}
+
+
+
 .abouts {
     font-size: xx-large;
     border-radius: 20px 20px 20px 20px;
@@ -40,4 +38,3 @@ summary:hover {
     color: grey;
 
 }
-
