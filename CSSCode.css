@@ -25,7 +25,9 @@ a:visited, a:active {
     border-style:double;
     border-width:medium;
     color: beige;
-    background-color: black;}
+    background-color: black;
+}
 summary:hover 
-    {color: grey;}
+    {color: grey;
+    }
 
