@@ -11,12 +11,15 @@ body {
 }
 a:link {
     color:white;
-    text-decoration: none;}
+    text-decoration: none;
+}
 a:visited, a:active {
     color: lightgrey;
-    text-decoration: underline;}
+    text-decoration: underline;
+}
 .abouts a:hover {
-    color:grey;}
+    color:grey;
+}
 .abouts {
     font-size: xx-large;
     border-radius: 20px 20px 20px 20px;
@@ -29,7 +32,7 @@ a:visited, a:active {
 }
 summary:hover 
     {color: grey;
-    }
+}
 img {
     align-items:center;
     width: 1201px;
@@ -37,5 +40,4 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
