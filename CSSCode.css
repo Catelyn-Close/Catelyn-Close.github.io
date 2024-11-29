@@ -9,7 +9,6 @@ h1 {
 body {
     background-color: black;
 }
-
 a:link {
     color:white;
     text-decoration: none;}
@@ -35,4 +34,5 @@ img {
     align-items:center;
     width: 600px;
     height: 400px;
+    
 }
