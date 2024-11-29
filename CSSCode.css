@@ -32,5 +32,6 @@ summary:hover
     {color: grey;
     }
 img {
-    top:20px;
+    align-items:center;
+    width: 600px
 }
