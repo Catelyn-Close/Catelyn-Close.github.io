@@ -1,3 +1,9 @@
+img {
+    display: block;
+    margin-left: 680px;
+    width: 1500px;
+    height: 800px;
+}
 h1 {
     width:auto;
     height:200px;
@@ -32,10 +38,4 @@ a:visited, a:active {
 }
 summary:hover 
     {color: grey;
-}
-img {
-    display: block;
-    margin-left: 680px;
-    width: 1500px;
-    height: 800px;
 }
