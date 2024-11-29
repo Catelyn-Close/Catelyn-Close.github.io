@@ -6,6 +6,9 @@ h1 {
     font-family: Apple Chancery;
     font-size: xx-large;
     color: white;}
+body {
+    background-image: linera-gradient(rgb(139, 0, 0),rgb(207, 207, 207),rgb(173, 148, 3)rgb(139,0,0))
+}
 
 a:link {
     color:white;
