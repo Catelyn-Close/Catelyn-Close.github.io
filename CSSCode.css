@@ -34,10 +34,10 @@ summary:hover
     {color: grey;
 }
 img {
-    align-items:center;
-    width: 1201px;
-    height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    width: 1500px;
+    height: 800px;
 }
