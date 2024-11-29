@@ -33,5 +33,6 @@ summary:hover
     }
 img {
     align-items:center;
-    width: 600px
+    width: 600px;
+    height: 400px;
 }
