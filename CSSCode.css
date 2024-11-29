@@ -34,5 +34,8 @@ img {
     align-items:center;
     width: 1201px;
     height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
