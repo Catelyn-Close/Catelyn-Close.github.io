@@ -6,7 +6,9 @@ h1 {
     font-family: Apple Chancery;
     font-size: xx-large;
     color: white;}
-
+body{
+    background-image:cover
+}
 a:link {
     color:white;
     text-decoration: none;}
