@@ -31,4 +31,6 @@ a:visited, a:active {
 summary:hover 
     {color: grey;
     }
-
+img {
+    top:20px;
+}
