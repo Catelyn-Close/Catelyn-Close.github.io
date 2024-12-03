@@ -39,3 +39,10 @@ a:visited, a:active {
 summary:hover 
     {color: grey;
 }
+@media screen and (min-width: 1160px) {
+    img {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
