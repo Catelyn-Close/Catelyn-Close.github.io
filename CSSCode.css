@@ -41,7 +41,7 @@ a:visited, a:active {
     border-color:white;
     border-style:double;
     border-width:medium;
-    color: beige;
+    color: white;
     background-color: rgb(145,2,2);
 }
 summary:hover 
