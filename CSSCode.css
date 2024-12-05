@@ -1,4 +1,7 @@
 @media screen and (max-width: 1160px) {
+    body {
+        background-color: blue;
+    }
     img {
         display:block;
         margin-left: auto;
