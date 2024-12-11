@@ -19,7 +19,9 @@ h1 {
     text-align:center;
     font-family: apple chancery;
     font-size: xx-large;
-    color: white;}
+    color: white;
+    border: double white;
+    }
 body {
     background-color: black;
 }
