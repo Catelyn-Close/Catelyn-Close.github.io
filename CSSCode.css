@@ -5,9 +5,17 @@ h3 {
     color: yellow;
     font-family: Impact;
     font-weight: 2;
+    position: relative;
+    bottom: 100px;
+
 }
 h4 {
     color: white;
     font-family: arial;
+    position: relative;
+    bottom: 100px;
+    left:10px
+
+
 }
 
