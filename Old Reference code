@@ -1,0 +1,96 @@
+<!--my old website code for reference on how things are done-->
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="CSSCode.css">
+    <title>Catelyn's Wishlist</title>
+    <style>
+        @media screen and (max-width: 1160px){
+            .tree {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:1200px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="MyTitle"> Catelyn's Wishlist Website <br> Updated 12/11/2024 <br> <img class="decor" src="ChristmasGarland.png" alt="Christmas garland" width="400" height="150"></h1>
+    </header>
+    <div>
+        <article class="abouts"> 
+            <details> <summary>Most wanted</summary>
+                <ul>
+                    <li><a href="https://store.warframe.com/collections/collectibles/products/desert-skate-floof-plush" target="_blank">Warframe(A videogame) Plush</a></li>
+                    <li><a href="https://store.warframe.com/collections/collectibles/products/volt-collectors-statue" target="_blank">Warframe(A videogame) Figurine</a></li>
+                    <li><a href="https://sanshee.com/products/starbound-matter-manipulator-poster" target="_blank"> Starbound(a videogame) Poster</a></li>
+                    <li> <a href="https://sanshee.com/products/starbound-races-pin-set" target="_blank"> Starbound(a videogame) Enamel pin set</a></li>
+                    <li> <a href="https://shop-us.kurzgesagt.org/collections/posters/products/the-cave-poster?variant=40689828331568" target="_blank">A Science Poster</a></li>
+                    <li> <a href="https://shop-us.kurzgesagt.org/collections/accessories/products/duck-plushie?variant=32410768506928" target="_blank">Science Channel Duck Plush</a></li>
+                    <li> <a href="https://shop-us.kurzgesagt.org/collections/plushies/products/bacteriophage-plushie?variant=40580777312304" target="_blank">Bacteriophage Plush</a></li>
+                    <li> <a href="https://shop-us.kurzgesagt.org/collections/accessories/products/duck-astronaut-enamel-pin?variant=32410755989552"> Science Channel Duck Enamel pin</a></li>
+                <details> <summary>Lego set choices(preferably only one of these)</summary>
+                    <li> <a href="https://www.amazon.com/dp/B0CGY3W2GH/?coliid=IFVGHO2QPNYS4&colid=3MCJL63GF4A5L&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">Dragon Ninjago Lego set</a></li>
+                    <li> <a href="https://www.amazon.com/dp/B0813Q7Q36/?coliid=IU4JE8NISI0BG&colid=3MCJL63GF4A5L&ref_=list_c_wl_lv_ov_lig_dp_it&th=1" target="_blank">The Destiny's Bounty Ninjago Lego set</a></li>
+                    <li> <a href="https://www.amazon.com/dp/B007Q0OMYW/?coliid=I2A4I15TZCAY9V&colid=3MCJL63GF4A5L&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1" target="_blank">Samurai X Ninjago Lego set</a></li>
+                    <li> <a href="https://www.amazon.com/Botanical-Collection-Sunflowers-Compatible-11002/dp/B0DJVSK6ST/ref=sr_1_2_sspa?crid=2XLR7TK8986NO&dib=eyJ2IjoiMSJ9.UnK8JUu5mae6qy3H7J43mdhCxXAcrqOMGA5RzjZRjTDZ7-bW-BhCgCYR8hc5uC6s_uNQeelS7OXVMZHquNl8q_EWwCcrjqsp5vco3owGmYNAXhJB0U9U6W_KajYpBJcHuhSp1bKp7kK42FWCWLul_yxkncuWxMrzQnYoBcsEeTlVTCr0vUalz328OVt9qK1xzWB5PMAP6itKz4PxGOfZEDKkVhbkwtrNNTexnrEqwduB3c_bBSG08l9ZtS59OEGDq5W8K3ODIIUNi0G0nv3TyZ97GGbfc7ymyjG4WwgFZmQ.euuByyNFAZlz7LI1S4UHgU8g9sIZuwmhr5NBb6NflRQ&dib_tag=se&keywords=flower+Lego+set&qid=1732819902&sprefix=flower+lego+se%2Caps%2C188&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank"> Sunflower Lego set</a></li>
+                </ul>
+                </details> 
+            </details>
+        </article>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <article class="abouts"> 
+            <details><summary>More Ideas</summary>
+                <ul>
+                    <li><a href="https://www.amazon.com/dp/B09MBT4MNV/?coliid=I1MWZCDO9H00MU&colid=3MCJL63GF4A5L&ref_=list_c_wl_lv_ov_lig_dp_it&th=1" target="_blank">Whale Paper Sculpture(or any of the variations)</a></li>
+                    <li><a href="https://www.amazon.com/dp/B07MZ3XD7S/?coliid=I2ZJOAHRZYQ5EW&colid=3MCJL63GF4A5L&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it" target="_blank">DC heros enamel pins</a></li>
+                    <li><a href="https://www.amazon.com/Apple-Gift-Card-200-accessories/dp/B08B3QBF9C/ref=sr_1_2?crid=2Z0QMY0BKFMOH&dib=eyJ2IjoiMSJ9.oHr0MtefP73PD1y59a1ZIW2QP2LXtXQzi4SsQbl8ELTfzXQnsVZEqVH1jTF52WFnKWgZgLdOJrL266PKtEwLvcFZPMoT0Mc6D-sZtNU9LX8nUSouZjfbUQMtQEzzMidxDBNKSsURaB_iKFHuJwdDEP1YDIzJXl_dEMjTGTQaK4ZEv5MOvmvCU6AjFm3P0kTV_Z5IILkcngSBG3davHs-WXgkMQDYRL-aaV_Yd7d2t4_6l3itBGSt2GnVO3amXH1OT9a26m048iegBz5SvI8s3V1hlEHS1QClzRfpUCptfIo.C8JVY1xs4dOovhtaUNq49gZxICuxGdd8ULRP2rdtvp4&dib_tag=se&keywords=apple+music+giftcard&qid=1732827988&sprefix=apple+music+giftcar%2Caps%2C187&sr=8-2" target="_blank">Apple music giftcard((physical copy) see electronical for eGiftcard)</a></li>
+                </ul>
+                <details><summary>Clothing</summary>
+                    <ul>
+                        <li><a href="https://www.etsy.com/listing/1545437222/thresher-shark-unisex-crewneck?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_all&utm_custom1=_k_CjwKCAiAxqC6BhBcEiwAlXp45wpl7rdx4Pl5Q4_AA8_mli-20Gcab76iWzxxYsLxux3-NUGtY5MTPhoC7DIQAvD_BwE_k_&utm_content=go_21792313653_163918384530_716644610800_pla-293946777986_c__1545437222_514397746&utm_custom2=21792313653&gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp45wpl7rdx4Pl5Q4_AA8_mli-20Gcab76iWzxxYsLxux3-NUGtY5MTPhoC7DIQAvD_BwE" target="_blank"> Shark long sleeve</a></li>
+                    <h3> Suggestions</h3>
+                        <li> Closed toe heels/fancy light shoes Nothing heavy</li>
+                        <li> ankle length boots</li>
+                        <li> New emboridered hightop converse </li>
+                        <li> Easy tie bread laces white </li>
+                        <li> A new jacket or flannel</li>
+                        <li> Button up shirts</li>
+                        <li> A lanyard able to hole 2 cards(still scannable)</li>
+                    </details>
+                    </ul>
+                <details><summary>Electronical gifts</summary>
+                        <ul> 
+                            <li><a href="https://www.amazon.com/Apple-Gift-Card-accessories-Delivery/dp/B08F3C99KN/ref=sr_1_1?crid=2Z0QMY0BKFMOH&dib=eyJ2IjoiMSJ9.oHr0MtefP73PD1y59a1ZIW2QP2LXtXQzi4SsQbl8ELTfzXQnsVZEqVH1jTF52WFnKWgZgLdOJrL266PKtEwLvcFZPMoT0Mc6D-sZtNU9LX8nUSouZjfbUQMtQEzzMidxDBNKSsURaB_iKFHuJwdDEP1YDIzJXl_dEMjTGTQaK4ZEv5MOvmvCU6AjFm3P0kTV_Z5IILkcngSBG3davHs-WXgkMQDYRL-aaV_Yd7d2t4_6l3itBGSt2GnVO3amXH1OT9a26m048iegBz5SvI8s3V1hlEHS1QClzRfpUCptfIo.C8JVY1xs4dOovhtaUNq49gZxICuxGdd8ULRP2rdtvp4&dib_tag=se&keywords=apple+music+giftcard&qid=1732827988&sprefix=apple+music+giftcar%2Caps%2C187&sr=8-1" target="_blank">Apple music eGiftcard</a></li>
+                            <li><a href="https://store.steampowered.com/app/1562430/DREDGE/" target="_blank">Steam Game, Dredge</a></li>
+                            <li><a href="https://store.steampowered.com/app/2484130/Fruitbus/" target="_blank">Steam Game, FruitBus</a></li>
+                            <li><a href="https://store.steampowered.com/app/2457220/Avowed/" target="_blank">Steam Game, Avowed</a></li>
+                            <li>Suggestion - Over ear Headphones</li>
+                        </ul>
+                </details>
+                <details><summary>Food</summary>
+                    <ul>
+                        <li><a href="https://www.walmart.com/ip/Mother-s-Circus-Frosted-Animal-Cookies-9-Ounce-Bag/143199578?wmlspartner=wlpa&selectedSellerId=0&wl13=3861&gclsrc=aw.ds&adid=22222222277143199578_161193766053_21214199653&wl0=&wl1=g&wl2=c&wl3=697173827980&wl4=pla-2348450966064&wl5=9195098&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=143199578&veh=sem_LIA&gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp451hM1HpwUWLrVawxjwlr05_yVXgACoitEGr3eUgdsyiGIDVEguHh-hoCR-QQAvD_BwE" target="_blank">My favorite dessert cookie</a></li>
+                        <li><a href="https://www.amazon.com/Trader-Joes-Waffle-Filled-Chocolate/dp/B0CW2J7NBW" target="_blank">Waffle cones(not this particular brand or store)</a></li>
+                    </ul>
+                </details>
+            </details>
+        </article>
+    </div>
+    <br>
+    <hr>
+    <img class="tree" src="https://wallpapers.com/images/high/black-christmas-background-iaf6narzbq4furvl.webp" alt="white christmas trees black background">
+</body>
+</html>
+-->
+
+<!-- Open in default browswer extension -->
