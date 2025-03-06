@@ -3,50 +3,33 @@ body {
 }
 h4::first-letter {
     color: yellow;
-    font-family: Impact;
-    font-weight: 2;
+    font-style:bold;
+    font-size: 40px;
 }
-h4 {
-    color: white;
-    font-family: arial;
-    position: absolute;
-    bottom: 75px;
-    padding:30px;
-    background-color: grey;
+#bar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-content: space-evenly;
+    width: 100%;
+    max-width: 100vw;
+  }
+  
+  #bar > div {
+    background-color: gray;
+    color:#000;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+#lessprof {
+    color:white;
+    position:absolute;
+    right:0px;
+    max-width: 100vw;
+    bottom:40%;
+    width:30%;
 }
-#aboutme {
-    padding: 60px;
-    position: absolute;
-    right:1px;
-    bottom:1px;
-
-}
-#portfolio {
-    padding: 60px;
-    position: absolute;
-    right:90px;
-    bottom:1px;
-
-}
-#resume {
-    padding: 60px;
-    position: absolute;
-    right:120px;
-    bottom:1px;
-
-}
-#contact {
-    padding: 60px;
-    position: absolute;
-    right:150px;
-    bottom:1px;
-
-}
-#home {
-    padding: 60px;
-    position: absolute;
-    right:180px;
-    bottom:1px;
-
-}
-
