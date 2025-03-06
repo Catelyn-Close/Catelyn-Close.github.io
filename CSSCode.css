@@ -1,15 +1,10 @@
 body {
     background-color: black;
 }
-h3 {
+h4::first-letter {
     color: yellow;
     font-family: Impact;
     font-weight: 2;
-    position: absolute;
-    bottom: 75px;
-    padding:30px;
-    background-color: grey;
-
 }
 h4 {
     color: white;
@@ -23,7 +18,7 @@ h4 {
     padding: 60px;
     position: absolute;
     right:1px;
-
+    bottom:1px;
 
 }
 
