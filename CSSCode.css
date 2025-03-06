@@ -18,6 +18,11 @@ h4 {
     bottom: 75px;
     padding:30px;
     background-color: grey;
+}
+#aboutme {
+    padding: 60px;
+    position: absolute;
+    right:1px;
 
 
 }
