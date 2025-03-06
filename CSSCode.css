@@ -24,7 +24,28 @@ h4 {
 #portfolio {
     padding: 60px;
     position: absolute;
-    right:60px;
+    right:90px;
+    bottom:1px;
+
+}
+#resume {
+    padding: 60px;
+    position: absolute;
+    right:120px;
+    bottom:1px;
+
+}
+#contact {
+    padding: 60px;
+    position: absolute;
+    right:150px;
+    bottom:1px;
+
+}
+#home {
+    padding: 60px;
+    position: absolute;
+    right:180px;
     bottom:1px;
 
 }
