@@ -24,6 +24,9 @@ button::first-letter {
     font-size: 30px;
     text-align: center;
   }
+  #scroller {
+    word-wrap: break-word;
+  }
   
   #bar button {
     width: 100%;
