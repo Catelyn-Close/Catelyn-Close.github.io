@@ -25,6 +25,14 @@ button::first-letter {
     text-align: center;
   }
   
+  #bar button {
+    width: 100%;
+    height: 100%;
+    background: transparent; /* Keeps button's background consistent */
+    border: none;
+    font-size: inherit; /* Inherits font size from parent */
+    cursor: pointer;
+  }
 #lessprof {
     color:white;
     position:absolute;
