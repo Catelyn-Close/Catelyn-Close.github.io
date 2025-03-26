@@ -1,6 +1,6 @@
 body {
     background-image: url("bg.jpg");
-    background-repeat:repeat;
+    background-repeat:repeat-x
 }
 button::first-letter {
     color: black;
@@ -13,7 +13,7 @@ button::first-letter {
     gap: 0px;
     position: fixed;
     bottom: 0;
-    left: 0;
+    left:0;
     align-content: space-evenly;
     width: 100%;
     max-width: 100vw;
@@ -37,22 +37,18 @@ button::first-letter {
     font-size: inherit; /* Inherits font size from parent */
     cursor: pointer;
   }
-#lessprof {
-    color:white;
-    position:absolute;
-    word-wrap:break-word;
-    left:500px;
-    top: 500px;
-    height: 80px;
-    width:350px;
-    background-color:cadetblue;
-    padding-bottom:300px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:10px;
-    border-radius:15px;
-    display: inline;
-  
+  #lessprof {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    word-wrap: break-word;
+    top: 400px;
+    left: calc(100vw - 430px); /* Keeps it at the right edge of the screen */
+    height: 440px;
+    width: 430px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+    display: block;
+    font-size: 20px;
 }
 #person {
   position:absolute;
@@ -60,20 +56,22 @@ button::first-letter {
   left:0px;
 }
 #greeting {
-  color: white;
+  color: rgb(10, 55, 66);
   display: block;
   font-size:50px;
   margin: 0 auto; /* Centers horizontally */
   width: fit-content;
+  border-radius: 10px;
 }
 #contacts {
   position: absolute;
-  color:white;
-  left:980px;
+  color:rgb(0, 0, 0);
+  left: calc(135vw - 300px);
+  width: 300px;
   display: inline-block;
   overflow-x: visible;
   position: relative;
-  background-color: cadetblue;
+  background-color: rgb(214, 214, 214);
   padding: 20px 20px 40px 10px;
   border-radius:20px;
 }
