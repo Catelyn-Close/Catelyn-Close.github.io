@@ -38,17 +38,18 @@ button::first-letter {
     cursor: pointer;
   }
   #lessprof {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: absolute;
     word-wrap: break-word;
     top: 400px;
     left: calc(100vw - 430px); /* Keeps it at the right edge of the screen */
     height: 440px;
     width: 430px;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(0, 122, 122);
     border-radius: 15px;
     display: block;
     font-size: 20px;
+    padding: 10px 10px 10px 10px;
 }
 #person {
   position:absolute;
@@ -65,13 +66,54 @@ button::first-letter {
 }
 #contacts {
   position: absolute;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   left: calc(135vw - 300px);
   width: 300px;
   display: inline-block;
   overflow-x: visible;
   position: relative;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(0, 122, 122);
   padding: 20px 20px 40px 10px;
   border-radius:20px;
+  text-align: left;
+}
+#Resumelink {
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 122);
+  width: 100px;
+  height: 25px;
+  padding:10px;
+  position: absolute;
+  left:calc(179vw - 100px);
+  top:220px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+
+}
+#acatitle {
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 122);
+  width: 300px;
+  height: 50px;
+  padding:10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left:calc(218vw - 300px);
+  top:190px;
+}
+#schoolz * {
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 122);
+  width: 300px;
+  height: 50px;
+  padding:10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left:calc(218vw - 300px);
+  
 }
