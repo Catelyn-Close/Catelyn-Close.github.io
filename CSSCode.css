@@ -1,6 +1,20 @@
+default{
+  text-align:center;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 122);
+  width: 300px;
+  padding:10px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+}
 body {
-    background-image: url("bg.jpg");
-    background-repeat:repeat-x
+    background-image: url("bg.jpg"), url('software grass longer.jpg');
+    background-position: left top, right bottom;
+    background-repeat:repeat-x, repeat-x;
+    background-size: auto, auto;
+    min-height: 96vh;
+
 }
 button::first-letter {
     color: black;
@@ -37,11 +51,11 @@ button::first-letter {
     font-size: inherit; /* Inherits font size from parent */
     cursor: pointer;
   }
-  #lessprof {
+  #prof {
     color: rgb(255, 255, 255);
     position: absolute;
     word-wrap: break-word;
-    top: 400px;
+    top: 350px;
     left: calc(100vw - 430px); /* Keeps it at the right edge of the screen */
     height: 440px;
     width: 430px;
@@ -91,29 +105,58 @@ button::first-letter {
   font-size: 20px;
 
 }
-#acatitle {
+#schoolz li h1, #schoolz li h4 {
+  font-size: 13px;
+  font-style: bold;
   color:rgb(255, 255, 255);
   background-color: rgb(0, 122, 122);
-  width: 300px;
-  height: 50px;
-  padding:10px;
+  width: 320px;
   border-radius: 10px;
+  left: calc(220vw - 300px);
+  list-style-type:none;
+  margin-left: -8vw;
+  position: relative;
+  margin-top: -48px;
+  padding: 10px;
   text-align: center;
-  font-size: 35px;
-  position: absolute;
-  left:calc(218vw - 300px);
-  top:190px;
 }
-#schoolz * {
+#skillz li h1, #skillz li h4 {
+  font-size: 13px;
+  font-style: bold;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 122, 122);
+  width: 320px;
+  border-radius: 10px;
+  left: calc(220vw - 300px);
+  list-style-type:none;
+  margin-left: 30vw;
+  position: relative;
+  margin-top: -47px;
+  padding: 10px;
+  text-align: center;
+}
+#lessprof {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  word-wrap: break-word;
+  top: 150px;
+  left: calc(320vw - 430px); /* Keeps it at the right edge of the screen */
+  height: 440px;
+  width: 430px;
+  background-color: rgb(0, 122, 122);
+  border-radius: 15px;
+  display: block;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+}
+/*text-align:center;
   color:rgb(255, 255, 255);
   background-color: rgb(0, 122, 122);
   width: 300px;
-  height: 50px;
   padding:10px;
   border-radius: 10px;
   text-align: center;
-  font-size: 35px;
-  position: absolute;
-  left:calc(218vw - 300px);
+  position: absolute;*/
   
-}
+
+  /* fix the fullscreen stuff maybe if it looks good */
