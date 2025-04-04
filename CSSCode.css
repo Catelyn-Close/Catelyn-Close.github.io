@@ -50,13 +50,14 @@ button::first-letter {
     border: none;
     font-size: inherit; /* Inherits font size from parent */
     cursor: pointer;
+    
   }
   #prof {
     color: rgb(255, 255, 255);
     position: absolute;
     word-wrap: break-word;
-    top: 350px;
-    left: calc(100vw - 430px); /* Keeps it at the right edge of the screen */
+    top: 260px;
+    left: calc(90vw - 430px); /* Keeps it at the right edge of the screen */
     height: 440px;
     width: 430px;
     background-color: rgb(0, 122, 122);
@@ -75,11 +76,13 @@ button::first-letter {
   display: block;
   font-size:50px;
   margin: 0 auto; /* Centers horizontally */
-  width: fit-content;
+  width: 100%;
+  text-align:center;
   border-radius: 10px;
+  position:fixed;
+
 }
 #contacts {
-  position: absolute;
   color:rgb(255, 255, 255);
   left: calc(135vw - 300px);
   width: 300px;
@@ -90,19 +93,24 @@ button::first-letter {
   padding: 20px 20px 40px 10px;
   border-radius:20px;
   text-align: left;
+  margin-bottom:80px;
+  top:120px;
+
 }
 #Resumelink {
   color:rgb(255, 255, 255);
   background-color: rgb(0, 122, 122);
   width: 100px;
   height: 25px;
-  padding:10px;
+  padding:10px 10px 36px 10px;
   position: absolute;
-  left:calc(179vw - 100px);
+  left:calc(165vw - 100px);
   top:220px;
   border-radius: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
+  text-decoration:none;
+  cursor: pointer;
 
 }
 #schoolz li h1, #schoolz li h4 {
@@ -114,7 +122,7 @@ button::first-letter {
   border-radius: 10px;
   left: calc(220vw - 300px);
   list-style-type:none;
-  margin-left: -8vw;
+  margin-left: -20vw;
   position: relative;
   margin-top: -48px;
   padding: 10px;
@@ -129,25 +137,25 @@ button::first-letter {
   border-radius: 10px;
   left: calc(220vw - 300px);
   list-style-type:none;
-  margin-left: 30vw;
+  margin-left: 20vw;
   position: relative;
-  margin-top: -47px;
-  padding: 10px;
+  margin-top: -51px;
+  padding: 15px;
   text-align: center;
 }
 #lessprof {
   color: rgb(255, 255, 255);
   position: absolute;
   word-wrap: break-word;
-  top: 150px;
-  left: calc(320vw - 430px); /* Keeps it at the right edge of the screen */
-  height: 440px;
+  top: -26px;
+  left: calc(300vw - 430px); /* Keeps it at the right edge of the screen */
+  height: 740px;
   width: 430px;
   background-color: rgb(0, 122, 122);
-  border-radius: 15px;
   display: block;
   font-size: 20px;
-  padding: 10px 10px 10px 10px;
+  padding: 50px 10px 100px 10px;
+  z-index: 2;
 }
 /*text-align:center;
   color:rgb(255, 255, 255);
