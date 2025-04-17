@@ -75,16 +75,17 @@ button::first-letter {
   color: rgb(10, 55, 66);
   display: block;
   font-size:50px;
-  margin: 0 auto; /* Centers horizontally */
+  margin-left: 0 auto; /* Centers horizontally */
   width: 100%;
-  text-align:center;
+  text-align:left;
   border-radius: 10px;
-  position:fixed;
+  position:absolute;
+  top:400px;
 
 }
 #contacts {
   color:rgb(255, 255, 255);
-  left: calc(135vw - 300px);
+  left: calc(115vw - 300px);
   width: 300px;
   display: inline-block;
   overflow-x: visible;
@@ -104,7 +105,7 @@ button::first-letter {
   height: 25px;
   padding:10px 10px 36px 10px;
   position: absolute;
-  left:calc(165vw - 100px);
+  left:calc(145vw - 100px);
   top:220px;
   border-radius: 10px;
   text-align: center;
@@ -120,7 +121,7 @@ button::first-letter {
   background-color: rgb(0, 122, 122);
   width: 320px;
   border-radius: 10px;
-  left: calc(220vw - 300px);
+  left: calc(180vw - 300px);
   list-style-type:none;
   margin-left: -20vw;
   position: relative;
@@ -135,7 +136,7 @@ button::first-letter {
   background-color: rgb(0, 122, 122);
   width: 320px;
   border-radius: 10px;
-  left: calc(220vw - 300px);
+  left: calc(165vw - 300px);
   list-style-type:none;
   margin-left: 20vw;
   position: relative;
@@ -148,15 +149,18 @@ button::first-letter {
   position: absolute;
   word-wrap: break-word;
   top: -26px;
-  left: calc(300vw - 430px); /* Keeps it at the right edge of the screen */
+  left: calc(220vw - 430px); /* Keeps it at the right edge of the screen */
   height: 740px;
   width: 430px;
   background-color: rgb(0, 122, 122);
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   padding: 50px 10px 100px 10px;
   z-index: 2;
+  text-align:center;
 }
+
+
 /*text-align:center;
   color:rgb(255, 255, 255);
   background-color: rgb(0, 122, 122);
