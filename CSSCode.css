@@ -1,12 +1,8 @@
-default{
-  text-align:center;
-  color:rgb(255, 255, 255);
-  background-color: rgb(0, 122, 122);
-  width: 300px;
-  padding:10px;
-  border-radius: 10px;
+html, body{
+
   text-align: center;
-  position: absolute;
+  height: 100%;
+  margin: 0;
 }
 body {
     background-image: url("bg.jpg"), url('software grass longer.jpg');
@@ -30,17 +26,33 @@ body {
     font-size: 20px;
   }
   
-  #bar > div {
+#bar > div {
     background-color: gray;
     color:#000;
     font-size: 35px;
     text-align: center;
   }
-  #scroller {
+#scroller {
     word-wrap: break-word;
   }
-  
-  #bar button {
+#scrollingcontainer {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  gap:6vw;
+  box-sizing: border-box;
+}
+#panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+#bar button {
     width: 100%;
     height: 100%;
     background: transparent; /* Keeps button's background consistent */
@@ -49,17 +61,21 @@ body {
     cursor: pointer;
     
   }
-  #prof {
+#prof-wrapper{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width:fit-content;
+  height:fit-content;
+}
+#prof {
     color: rgb(255, 255, 255);
-    position: absolute;
     word-wrap: break-word;
-    top: 260px;
-    left: calc(70vw - 430px); /* Keeps it at the right edge of the screen */
     height: 440px;
     width: 430px;
     background-color: rgb(0, 122, 122);
     border-radius: 15px;
-    display: block;
     font-size: 20px;
     padding: 10px 10px 10px 10px;
 }
@@ -68,32 +84,43 @@ body {
   bottom:0px;
   left:0px;
 }
+#greeting-wrapper {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width:fit-content;
+  height:fit-content;
+}
 #greeting {
   color: rgb(10, 55, 66);
   display: block;
   font-size:50px;
-  margin-left: 0 auto; /* Centers horizontally */
   width: 100%;
   text-align:left;
   border-radius: 10px;
-  position:absolute;
-  top:400px;
+  
+  
 
+}
+#contacts-wrapper {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width:fit-content;
+  height:fit-content;
+  
 }
 #contacts {
   color:rgb(255, 255, 255);
-  left: calc(105vw - 340px);
   width: 340px;
-  display: inline-block;
-  overflow-x: visible;
-  position: relative;
+  flex-direction: column;
   background-color: rgb(0, 122, 122);
   padding: 10px 20px 30px 10px;
   border-radius:20px;
   text-align: center;
-  margin-bottom:80px;
-  top:250px;
-
+  margin:0;
 }
 #Resumelink {
   color:rgb(255, 255, 255);
@@ -102,8 +129,6 @@ body {
   height: 25px;
   padding:10px 10px 36px 10px;
   position: absolute;
-  top:500px;
-  right: 130px;
   border-radius: 10px;
   text-align: center;
   font-size: 23px;
@@ -111,52 +136,84 @@ body {
   cursor: pointer;
   z-index:1;
 }
+#schoolz-wrapper {
+  position:relative;
+  display: flex;
+  justify-content: flex-end;  /* centers horizontally */
+  align-items: center;       /* centers vertically */          
+  width:fit-content;
+  height:fit-content;
+}
+#schoolz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2px;
+  height: fit-content;
+}
+
+#schoolz li {
+  list-style-type: none;
+  margin-top: 0;
+}
+
 #schoolz li h1, #schoolz li h4 {
-  font-size: 13px;
-  font-style: bold;
-  color:rgb(255, 255, 255);
+  margin:0;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
   background-color: rgb(0, 122, 122);
   width: 320px;
+  max-width: 100%;
+  min-width:320px;
   border-radius: 10px;
-  left: calc(160vw - 300px);
-  list-style-type:none;
-  margin-left: -20vw;
-  position: relative;
-  margin-top: -48px;
   padding: 10px;
   text-align: center;
-  transform: translateY(120px);
+}
+#skillz-wrapper {
+  position:relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;       
+  width:fit-content;
+  height:fit-content;  
+}
+#skillz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2px;
+  height: fit-content;
+}
+#skillz li {
+  list-style-type: none;
+  margin-top: 0;
 }
 #skillz li h1, #skillz li h4 {
-  font-size: 13px;
-  font-style: bold;
-  color:rgb(255, 255, 255);
+  margin:0;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
   background-color: rgb(0, 122, 122);
   width: 320px;
+  max-width: 100%;
+  min-width:320px;
   border-radius: 10px;
-  left: calc(140vw - 300px);
-  list-style-type:none;
-  margin-left: 20vw;
-  position: relative;
-  margin-top: -51px;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-  transform: translateY(50px);
 }
-#lessprof {
+#nonprof-wrapper {
   color: rgb(255, 255, 255);
-  position: absolute;
   word-wrap: break-word;
-  top: -26px;
-  left: calc(190vw - 430px); /* Keeps it at the right edge of the screen */
-  height: 740px;
+  height: 100vh;
   width: 430px;
   background-color: rgb(0, 122, 122);
-  display: block;
   font-size: 22px;
   padding: 50px 10px 100px 10px;
-  z-index: 2;
   text-align:center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  min-width:100%
 }
 #wrapper {
   position:relative;
