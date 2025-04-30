@@ -246,7 +246,7 @@ a:active{
   position: absolute;*/
   @media(max-width: 499px) {
     #bar > div {
-       font-size: 20px;
+       font-size: 25px;
     }
   }
   @media (max-width: 499px) {
