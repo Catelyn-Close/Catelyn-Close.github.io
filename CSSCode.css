@@ -43,7 +43,7 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  gap:6vw;
+  gap:8vw;
   box-sizing: border-box;
 }
 #panel {
@@ -95,7 +95,7 @@ body {
 #greeting {
   color: rgb(10, 55, 66);
   display: block;
-  font-size:50px;
+  font-size:55px;
   width: 100%;
   text-align:left;
   border-radius: 10px;
@@ -241,4 +241,4 @@ a:active{
   position: absolute;*/
   
 
-  /* fix the fullscreen stuff maybe if it looks good */
+  /* fix the fullscreen stuff eventually */
