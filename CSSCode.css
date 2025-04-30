@@ -246,11 +246,12 @@ a:active{
   position: absolute;*/
   @media(max-width: 499px) {
     #bar > div {
-       font-size: 10px;
+       font-size: 20px;
     }
   }
   @media (max-width: 499px) {
     #text-wrapper br {
       display: none;
     }
+  }
   /* fix the fullscreen stuff eventually */
