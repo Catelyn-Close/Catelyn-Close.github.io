@@ -1,3 +1,7 @@
+/*make media query for nav bar text size and for text move up in nonprof */
+
+
+
 html, body{
 
   text-align: center;
@@ -30,6 +34,7 @@ body {
     background-color: gray;
     color:#000;
     font-size: 35px;
+
     text-align: center;
   }
 #scroller {
@@ -239,6 +244,13 @@ a:active{
   border-radius: 10px;
   text-align: center;
   position: absolute;*/
-  
-
+  @media(max-width: 499px) {
+    #bar > div {
+       font-size: 10px;
+    }
+  }
+  @media (max-width: 499px) {
+    #text-wrapper br {
+      display: none;
+    }
   /* fix the fullscreen stuff eventually */
