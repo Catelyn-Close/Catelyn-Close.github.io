@@ -1,7 +1,5 @@
 /*make media query for nav bar text size and for text move up in nonprof */
 
-
-
 html, body{
 
   text-align: center;
@@ -16,7 +14,6 @@ body {
     min-height: 96vh;
 
 }
-
 #bar {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -29,7 +26,6 @@ body {
     max-width: 100vw;
     font-size: 20px;
   }
-  
 #bar > div {
     background-color: gray;
     color:#000;
@@ -81,7 +77,7 @@ body {
     width: 430px;
     background-color: rgb(0, 122, 122);
     border-radius: 15px;
-    font-size: 21px;
+    font-size: 23px;
     padding: 10px 10px 10px 10px;
 }
 #person {
@@ -156,12 +152,10 @@ body {
   gap:2px;
   height: fit-content;
 }
-
 #schoolz li {
   list-style-type: none;
   margin-top: 0;
 }
-
 #schoolz li h1, #schoolz li h4 {
   margin:0;
   font-size: 20px;
